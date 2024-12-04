@@ -34,6 +34,9 @@ RUN apt-get update \
 
 COPY rootfs /
 
+COPY deb /deb
+RUN dpkg -i /deb/canon_mf8050.deb
+
 # Add user and disable sudo password checking
 RUN useradd \
   --groups=sudo,lp,lpadmin \

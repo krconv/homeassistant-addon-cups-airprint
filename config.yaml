@@ -1,4 +1,4 @@
-name: CUPS
+name: CUPS (Custom)
 version: "1.0"
 slug: cupsik
 description: A CUPS print server with working AirPrint
